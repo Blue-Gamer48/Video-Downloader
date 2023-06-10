@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "yt-downloader"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "yt_downloader"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+youtube-dl = "^2021.12.17"
+pytube = "^15.0.0"
+moviepy = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
